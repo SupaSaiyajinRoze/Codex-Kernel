@@ -40,7 +40,7 @@ echo -e "***********************************************"
 echo "          Initialising DEFCONFIG        "
 echo -e "***********************************************"
 
-make -C $PWD O=$PWD/out ARCH=arm64 halcyon_defconfig
+make -C $PWD O=$PWD/out ARCH=arm64 x500_defconfig
 
 echo -e "***********************************************"
 echo "          Cooking Codex_kernel!!        "
